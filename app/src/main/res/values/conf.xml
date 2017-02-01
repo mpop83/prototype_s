@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="url_base">https://api.stylight.com/rest/</string>
+
+    <string name="path_products">products</string>
+    <string name="path_posts">posts</string>
+
+    <integer name="prod_items">8</integer>
+    <integer name="posts_items">3</integer>
+
+</resources>

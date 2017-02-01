@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Prototype S</string>
+    
+    <string name="title_activity_main">Prototype S</string>
+    <string name="title_cat_fashion">Fashion</string>
+    <string name="title_cat_lifestyle">Lifestyle</string>
+
+
+</resources>

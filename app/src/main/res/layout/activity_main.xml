@@ -1,0 +1,115 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:background="@color/primary_material_light"
+    tools:context="com.test.prototype_s.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <!-- clothes -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:text="Check these out"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+            android:text="New and trending products"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/clothes_recycler_view"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_recycle_view"
+            android:layout_marginBottom="@dimen/items_margin"
+            android:layout_marginTop="@dimen/items_margin"
+            />
+
+
+        <!-- posts fashion -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:text="The latest fashion news"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:text="New and trending products"/>
+
+        <LinearLayout
+            android:id="@+id/layout_fashion"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+
+        <!-- lamps -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:text="The coolest lamps"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+            android:text="New and trending products"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/lamps_recycler_view"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_recycle_view"
+            android:layout_marginBottom="@dimen/items_margin"
+            android:layout_marginTop="@dimen/items_margin"
+            />
+
+
+
+        <!-- posts lifestyle -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:text="The latest lifestyle news"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:text="Get up to date"/>
+
+        <LinearLayout
+            android:id="@+id/layout_lifestyle"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+

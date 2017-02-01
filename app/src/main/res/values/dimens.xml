@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="items_margin">8dp</dimen>
+
+    <dimen name="width_iv_post">150dp</dimen>
+    <dimen name="height_iv_post">150dp</dimen>
+
+    <dimen name="width_iv_prod">180dp</dimen>
+    <dimen name="height_iv_prod">220dp</dimen>
+
+    <dimen name="height_prod">300dp</dimen>
+    <dimen name="height_recycle_view">320dp</dimen>
+
+    <dimen name="gen_elevation">4dp</dimen>
+
+
+</resources>
